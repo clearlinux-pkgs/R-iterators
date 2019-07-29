@@ -1,8 +1,15 @@
 # This file contains recursive sources that require this package
 R-ClustVarLV
+R-SGP
+R-TSP
+R-blockmodeling
+R-caret
 R-doMC
 R-doMPI
 R-doParallel
 R-doRNG
 R-doSNOW
 R-foreach
+R-gam
+R-glmnet
+R-joineRML
