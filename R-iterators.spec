@@ -4,13 +4,14 @@
 #
 Name     : R-iterators
 Version  : 1.0.12
-Release  : 44
+Release  : 45
 URL      : https://cran.r-project.org/src/contrib/iterators_1.0.12.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/iterators_1.0.12.tar.gz
 Summary  : Provides Iterator Construct
 Group    : Development/Tools
 License  : Apache-2.0
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 through all the elements of a vector, list, or other collection
@@ -24,10 +25,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1564418820
+export SOURCE_DATE_EPOCH=1571848718
 
 %install
-export SOURCE_DATE_EPOCH=1564418820
+export SOURCE_DATE_EPOCH=1571848718
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
