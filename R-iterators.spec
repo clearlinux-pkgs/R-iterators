@@ -4,7 +4,7 @@
 #
 Name     : R-iterators
 Version  : 1.0.14
-Release  : 72
+Release  : 73
 URL      : https://cran.r-project.org/src/contrib/iterators_1.0.14.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/iterators_1.0.14.tar.gz
 Summary  : Provides Iterator Construct
